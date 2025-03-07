@@ -1,0 +1,79 @@
+Catalogue de Documents - Application Interactive
+Description du Projet
+Cette application interactive a été développée pour une association d'amateurs d'histoire et de littérature historique. Elle permet de gérer et de consulter un catalogue de documents historiques (livres, magazines, vidéos, enregistrements audios) à l'aide d'une interface simple basée sur JOptionPane.
+
+Le projet vise à remplacer un fichier texte peu pratique par une application interactive qui :
+
+Charge les données des fichiers epoques.txt (époques historiques) et documents.txt (documents de l'association), tout en validant leur contenu.
+Fournit une interface utilisateur simple permettant de parcourir les époques, les documents associés, et d'afficher les détails des documents sélectionnés.
+
+
+Fonctionnalités
+1. Chargement des données
+Le programme charge deux fichiers :
+epoques.txt : Contient les époques historiques rattachées aux documents.
+documents.txt : Contient les informations détaillées sur les documents.
+Les données sont validées avant d'être ajoutées en mémoire :
+Les champs obligatoires (code, libellé, titre, format, etc.) doivent être présents.
+Les valeurs numériques (année, valeur, durée, etc.) doivent être valides (pas de valeurs négatives).
+Les formats multimédias sont strictement validés (DVD, Blu-ray pour vidéos, CD, MP3 pour audios, insensibles à la casse).
+Les anomalies détectées lors du chargement des fichiers (ex. données manquantes ou invalides) sont affichées dans la console.
+2. Interface utilisateur interactive
+L'interface utilisateur utilise JOptionPane pour offrir une navigation intuitive :
+
+Sélection d'une époque :
+Une boîte de dialogue présente toutes les époques disponibles.
+L'utilisateur sélectionne une époque pour afficher les documents qui y sont rattachés.
+Affichage des statistiques de l'époque :
+Nombre de documents par type (livres, magazines, vidéos, audios).
+Valeur totale des documents.
+Nombre total de pages pour les documents papier.
+Durée totale pour les documents multimédias.
+Sélection d'un document :
+Une liste déroulante affiche les titres des documents associés à l'époque sélectionnée.
+L'utilisateur peut choisir un document pour afficher ses détails.
+Affichage des détails du document :
+Les informations spécifiques au document sélectionné sont affichées (par ex. auteur, thème, dimensions, durée, acteur principal, etc.).
+Structure du Projet
+Le projet est organisé en plusieurs classes pour une meilleure modularité et maintenabilité.
+
+1. Modèle de données
+Le modèle utilise des classes pour représenter les époques et les différents types de documents.
+
+Epoque :
+Représente une époque historique avec un code et un libellé.
+Document (classe abstraite) :
+Classe de base pour tous les documents.
+Attributs communs : epoqueCode, titre, anneePublication, valeur.
+Sous-classes de Document :
+Livre : Ajoute nbPages, largeur, hauteur, auteur, et collection.
+Magazine : Ajoute nbPages, largeur, hauteur, numero, et theme.
+Video : Ajoute format, duree, realisateur, et acteurPrincipal.
+Audio : Ajoute format, duree, auteur, et interpretePrincipal.
+2. Fonctionnalités principales
+Chargement des époques (epoques.txt) :
+Chaque ligne contient un code et un libellé, séparés par un point-virgule ;.
+
+Chargement des documents (documents.txt) :
+Chaque ligne contient les informations d'un document, en fonction de son type (Livre, Magazine, Vidéo, Audio).
+
+Interface utilisateur interactive :
+Utilise JOptionPane pour dialoguer avec l'utilisateur.
+Les listes déroulantes et boîtes de dialogue facilitent la navigation.
+
+Installation et Exécution
+Prérequis
+Java Development Kit (JDK) 8 ou supérieur.
+Un IDE (ex. Eclipse, IntelliJ IDEA) ou un terminal pour compiler et exécuter le projet.
+Étapes d installation
+Téléchargez ou clonez le projet.
+Placez les fichiers epoques.txt et documents.txt dans le répertoire du projet.
+
+Améliorations Futures
+Ajouter une base de données pour stocker les documents et époques.
+Offrir une recherche avancée (par titre, année, auteur, etc.).
+Proposer une interface graphique améliorée avec JavaFX ou Swing.
+Permettre la modification et la mise à jour des fichiers directement depuis l application.
+Contributeurs
+Auteur principal : [Votre Nom]
+Association : [Nom de l association d histoire et littérature]

@@ -1,0 +1,55 @@
+L;B1;Notre-Dame de Paris;2016;18.98;534;15.2;22.9;Victor Hugo;
+L;B1;Notre-Dame de Paris;2013;4.7;704;11;17.8;Victor Hugo;Pocket Classique
+V;B1;Notre-Dame de Paris;2014;10.5;DVD;75;Jacques Vichet;;
+V;B1;Le Bossu de Notre-Dame;2014;12.0;DVD;103;Wallace Worsley;Lon Chaney;
+A;B1;Notre-Dame de Paris;1996;12.0;CD;58;Luc Plamondon ;;
+A;B1;Notre-Dame de Paris;2004;9.5;MP3;58;Luc Plamondon ;;
+M;B1;Histoire & Civilisations;2015;5.10;180;22.5;29.3;456;La construction des cathédrales
+M;B1;Histoire Junior;2009;4.5;120;18.;24.;72;Notre-Dame de Paris
+L;B1;Les secrets des cathédrales;2016;19.90;224;15.2;22.9;Jean-Louis Bachelet;
+L;B1;Le Mystère Des Cathédrales ;2011;12.62;224;18.9;24.6;;
+V;B1;Les Cathédrales dévoilées;2011;26;DVD;80;;;
+V;B1; Les Mystères des Cathédrales ;2001;19.64;DVD;95;Jean-François Delassus ;;
+L;B1;L'aventure des Cathédrales;2015;29.95;128;26.;31.;;Livre animé
+L;D1;Révolution Française;2010;19.90;480;10.9;17.5;Max Gallo;Littérature
+V;D1;La Révolution Française;2013;19.99;DVD;335;Robert Enrico;Jean-François Stévenin;
+A;D1;La Révolution Française;2012;20.50;cd;118;Alain Boublil ;;
+L;D1;Révolution, Consulat, Empire;2014;25;715;14.2;19.2;Michel Biard;Histoire de France
+L;D1;La chute de l'ancien régime;2007;12.2;48;22;28;Hans Ulrich Thamer;Jeunesse
+V;D1;L'été de la Révolution ;2005;11;dvd;180;Lazare Iglesis; Bruno Cremer;
+L;D1;Histoire de France – Tome 5;2004;14.99;2à7;22.5;29.3;;
+M;D1;Historia;2006;7.5;120;21;29.7;504;La révolution Française
+M;D1;L'Histoire;2015;6.4;156;22.5;28;677;La prise de la Bastille
+L;D1;Quatrevingt-treize;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+X;D1;Erreur – Type de document inconnu;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+;D1;Erreur – Type de document absent;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;;Erreur – Code époque absent;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;CC;Erreur – Code époque inconnu;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;;2001;4.6;576;10.9;17.5;Erreur;Titre absent
+L;D1;Erreur – Année absente;;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Année non numérique;a2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Année négative;-2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Valeur absente;2001;4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Valeur négative;2001;-4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Valeur non numérique;2001;a4.6;576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur – Nb pages absent;2001;4.6;;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Nb pages non numérique;2001;4.6;z576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Nb pages négatif;2001;4.6;-576;10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Largeur absente;2001;4.6;576;;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Largeur non numérique;2001;4.6;576;y10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Largeur négative;2001;4.6;576;-10.9;17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Hauteur absente;2001;4.6;576;10.9;;Victor Hugo;Classiques Poche
+L;D1;Erreur - Hauteur non numérique;2001;4.6;576;10.9;b17.5;Victor Hugo;Classiques Poche
+L;D1;Erreur - Hauteur négative;2001;4.6;576;10.9;-17.5;Victor Hugo;Classiques Poche
+V;B1;Erreur - ;2014;10.5;DVD;75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Format absent;2014;10.5;;75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Format incorrect;2014;10.5;XXX;75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Format incorrect;2014;10.5;MP3;75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Format incorrect;2014;10.5;CD;75;Jacques Vichet;Jacques Vichet;
+A;B1;Erreur - Format incorrect;2014;10.5;DVD;75;Jacques Vichet;Jacques Vichet;
+A;B1;Erreur - Format incorrect;2014;10.5;Blu-ray;75;Jacques Vichet;Jacques Vichet;
+A;B1;Erreur - Format incorrect;2014;10.5;XXX;75;Jacques Vichet;Jacques Vichet;
+A;B1;Erreur - Format absent;2014;10.5;XXX;75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Durée absente;2014;10.5;DVD;;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Durée non numérique;2014;10.5;DVD;d75;Jacques Vichet;Jacques Vichet;
+V;B1;Erreur - Durée négative;2014;10.5;DVD;-75;Jacques Vichet;Jacques Vichet;

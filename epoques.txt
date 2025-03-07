@@ -1,0 +1,24 @@
+A1;Antiquité grecque
+A2;Antiquité romaine
+A3;Antiquité Egyptienne
+A4;Gaulois
+A5
+B1;Moyen-Age en France
+B2;Moyen-Age en Angleterre
+B3;
+C1;Renaissance française
+C2;Renaissance italienne
+C3;Louis XiV
+C4;Siècle des Lumières
+C5;    
+D1;Révolution française
+D2;Napoléon
+;Romantisme
+E1;Second Empire
+ ; 
+F1;1ère Guerre Mondiale
+F2;2ème Guerre Mondiale
+;
+
+;texte;text2
+F3;Dessin animé
